@@ -1,0 +1,12 @@
+# Homework images and personal files
+*.png
+*.jpg
+*.jpeg
+*.pdf
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Renviron
+*.Rcheck/
+*.tar.gz

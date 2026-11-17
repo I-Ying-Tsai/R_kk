@@ -1,0 +1,14 @@
+Package: rbuddy
+Title: AI Study Buddy Add-in for RStudio
+Version: 0.2.0
+Authors@R: person("R Buddy", "User", role = c("aut", "cre"), email = "nobody@example.com")
+Description: An RStudio add-in that reads the script you are writing and your
+    recent Console output, suggests analyses you may need, and offers a small
+    chat pane backed by local open-source models (Ollama), Gemini, Claude
+    (Anthropic API) or any OpenAI-compatible server. Answers can insert R code
+    or proofs into your script, or edit lines you got wrong.
+License: MIT
+Encoding: UTF-8
+Depends: R (>= 4.1)
+Imports: shiny, httr2, jsonlite, rstudioapi, callr, later, commonmark,
+    httpuv, htmltools, tools, utils

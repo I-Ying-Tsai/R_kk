@@ -1,0 +1,14 @@
+Name: R Buddy - Open
+Description: Open the AI study buddy (suggestions + chat) in the Viewer pane.
+Binding: rbuddy_start
+Interactive: false
+
+Name: R Buddy - Ask about selection
+Description: Ask R Buddy about the selected code or problem text.
+Binding: rbuddy_ask_selection
+Interactive: true
+
+Name: R Buddy - Close
+Description: Stop the R Buddy background app.
+Binding: rbuddy_stop
+Interactive: false
